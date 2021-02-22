@@ -1,0 +1,142 @@
+<!doctype html> 
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>CitySpire: US States</title>    
+        <link rel="stylesheet" href="css/index.css">
+    
+    </head>
+    <body id="US-States">
+        <a data-scroll href="#top" id="topbtn">
+        </a>
+        <div class = "navigation">
+        <nav class = "hdnav">
+            <a class="home-nav" href="https://g.cityspire.dev/">Home</a>
+            <a class="states-nav" href="index.html">US States</a>
+        </nav>
+        </div>
+
+        <header>
+            <div class="US-header"></div>
+            <div class="AL"></div>		
+        </header>
+
+        <div class="AL-Links">
+            <p>
+                <a class="white"  href="https://en.wikipedia.org/wiki/Alabama">Alabama Wikipedia Page</a> 
+            </p>
+        </div>
+        
+        <div id="flipcard">
+            <div class="flip">
+                <div class="card">
+                    <div class="face front">
+                        State Flower
+                    </div>
+                    <div class="face back">
+                        <div>Answer</div>
+                    </div>
+                </div>
+            </div>
+            <div class="flip">
+                <div class="card">
+                    <div class="face front">
+                        State Flag
+                    </div>
+                    <div class="face back">
+                        <div><img src="img/AL-Flag.png" alt="Alabama State Flag"> Alabama State Flag</div>
+                    </div>
+                </div>
+            </div>
+            <div class="flip">
+                <div class="card">
+                    <div class="face front">
+                        State Bird
+                    </div>
+                    <div class="face back">
+                        <div>Answer</div>
+                    </div>
+                </div>
+            </div>
+            <div class="flip">
+                <div class="card">
+                    <div class="face front">
+                        State Capital
+                    </div>
+                    <div class="face back">
+                        <div>Answer</div>
+                    </div>
+                </div>
+            </div>
+            <div class="flip">
+                <div class="card">
+                    <div class="face front">
+                        University of Alabama
+                    </div>
+                    <div class="face back">
+                        <div>Answer</div>
+                    </div>
+                </div>
+            </div>
+            <div class="flip">
+                <div class="card">
+                    <div class="face front">
+                        Auburn University
+                    </div>
+                    <div class="face back">
+                        <div>Answer</div>
+                    </div>
+                </div>
+            </div>
+            <div class="flip">
+                <div class="card">
+                    <div class="face front">
+                        Fun Facts
+                    </div>
+                    <div class="face back">
+                        <div>Answer</div>
+                    </div>
+                </div>
+            </div>
+            <div class="flip">
+                <div class="card">
+                    <div class="face front">
+                        Dumb Laws
+                    </div>
+                    <div class="face back">
+                        <div>Answer</div>
+                    </div>
+                </div>
+            </div>
+            <div class="flip">
+                <div class="card">
+                    <div class="face front">
+                        Learn More
+                    </div>
+                    <div class="face back">
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <script type='text/javascript'>
+            var cards = document.querySelectorAll(".card");
+            cards.forEach(function(element){
+                element.addEventListener("click",function(){
+                    this.classList.toggle("flipped");
+                });
+            });
+        </script>
+        <div>
+            <footer id="footer">
+            Cityspire ©2021 Created by Labspt15-cityspire-g
+            </footer> 
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,75 @@
+#flipcard{
+    margin: auto 3%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.flip {
+    perspective: 800px;
+    -webkit-perspective: 800px;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin: auto 2%;
+}
+.flip .card.flipped {
+    transform: rotatey(-180deg);
+    -webkit-transform: rotatey(-180deg);
+}
+.flip .card {
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    transition: all 0.5s ease-out 0s;
+    -webkit-transition: all 0.5s ease-out 0s;
+}
+.flip .card .face {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    z-index: 2;
+    text-align: center;
+    line-height: 75px;
+}
+.flip .card .front {
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+    text-align: center;
+    /*Front Face Style Formatting Below*/
+    font-family: 'Lucida Grande', Helvetica, sans-serif;
+    font-weight: 200;
+    color: #ffffff;
+    font-size:30px;
+    text-shadow: 1px 1px 1px #2D383A;
+    background-color:#4A646C;
+    background: -webkit-linear-gradient(#2D383A, #4A646C); /* For Safari 5.1 to 6.0 */
+      background: -o-linear-gradient(#2D383A, #4A646C); /* For Opera 11.1 to 12.0 */
+      background: -moz-linear-gradient(#2D383A, #4A646C); /* For Firefox 3.6 to 15 */
+      background: linear-gradient(#2D383A, #4A646C); /* Standard syntax */
+    -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.35), inset 0px 0px 0px 4px #ECECEC;
+       -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.35), inset 0px 0px 0px 4px #ECECEc;
+       box-shadow: 0 2px 3px rgba(0, 0, 0, 0.35), inset 0px 0px 0px 4px #ECECEC;
+}
+.flip .card .back {
+    transform: rotatey(-180deg);
+    -webkit-transform: rotatey(-180deg);
+    cursor: pointer;
+    /*Back Face Style Formatting Below*/
+    font-family: 'Lucida Grande', Helvetica, sans-serif;
+    font-weight: 200;
+    color: #ffffff;
+    font-size:30px;
+    text-shadow: 1px 1px 1px black;
+    background-color:black;
+    background: -webkit-radial-gradient(#0066CC, #50BFE6); /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(#0066CC, #50BFE6); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(#0066CC, #50BFE6); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(#0066CC, #50BFE6); /* Standard syntax */
+    -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.35), inset 0px 0px 0px 4px #ECECEC;
+       -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.35), inset 0px 0px 0px 4px #ECECEC;
+       box-shadow: 0 2px 3px rgba(0, 0, 0, 0.35), inset 0px 0px 0px 4px #ECECEC;
+}
