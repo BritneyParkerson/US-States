@@ -9,6 +9,16 @@
     transform: translateY(0) translateX(1000px);
   }
 }
+.navigation a {
+  color: black;
+  font-size: 1.2rem;
+  margin: auto 0.25%;
+  border: 1px outset silver;
+}
+.navigation a:hover {
+  background: black;
+  color: white;
+}
 header {
   position: relative;
   display: flex !important;
@@ -87,6 +97,9 @@ header .AL {
   background: white;
   color: grey;
 }
+.AL-Links {
+  color: white;
+}
 #flipcard {
   margin: auto 3%;
   display: flex;
@@ -121,7 +134,7 @@ header .AL {
   -webkit-backface-visibility: hidden;
   z-index: 2;
   text-align: center;
-  line-height: 75px;
+  line-height: 50px;
 }
 .flip .card .front {
   position: absolute;
@@ -130,18 +143,18 @@ header .AL {
   text-align: center;
   /*Front Face Style Formatting Below*/
   font-family: 'Lucida Grande', Helvetica, sans-serif;
-  font-weight: 200;
+  font-weight: 20;
   color: #ffffff;
-  font-size: 30px;
+  font-size: 50px;
   text-shadow: 1px 1px 1px #2D383A;
   background-color: #4A646C;
-  background: -webkit-linear-gradient(#2D383A, #4A646C);
+  background: -webkit-linear-gradient(red, maroon);
   /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#2D383A, #4A646C);
+  background: -o-linear-gradient(red, maroon);
   /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#2D383A, #4A646C);
+  background: -moz-linear-gradient(red, maroon);
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#2D383A, #4A646C);
+  background: linear-gradient(red, maroon);
   /* Standard syntax */
   -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.35), inset 0px 0px 0px 4px #ECECEC;
   -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.35), inset 0px 0px 0px 4px #ECECEc;
@@ -153,18 +166,19 @@ header .AL {
   cursor: pointer;
   /*Back Face Style Formatting Below*/
   font-family: 'Lucida Grande', Helvetica, sans-serif;
-  font-weight: 200;
+  font-weight: 20;
   color: #ffffff;
-  font-size: 30px;
+  font-size: 1.4rem;
+  line-height: 30px;
   text-shadow: 1px 1px 1px black;
   background-color: black;
-  background: -webkit-radial-gradient(#0066CC, #50BFE6);
+  background: -webkit-radial-gradient(navy, blue);
   /* Safari 5.1 to 6.0 */
-  background: -o-radial-gradient(#0066CC, #50BFE6);
+  background: -o-radial-gradient(navy, blue);
   /* For Opera 11.6 to 12.0 */
-  background: -moz-radial-gradient(#0066CC, #50BFE6);
+  background: -moz-radial-gradient(navy, blue);
   /* For Firefox 3.6 to 15 */
-  background: radial-gradient(#0066CC, #50BFE6);
+  background: radial-gradient(navy, blue);
   /* Standard syntax */
   -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.35), inset 0px 0px 0px 4px #ECECEC;
   -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.35), inset 0px 0px 0px 4px #ECECEC;
