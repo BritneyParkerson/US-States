@@ -14,9 +14,30 @@
   font-size: 1.2rem;
   margin: auto 0.25%;
   border: 1px outset silver;
+  text-decoration: none;
 }
 .navigation a:hover {
   background: black;
+  color: white;
+}
+.btmNav {
+  text-align: center;
+  margin: 2% auto;
+}
+.btmNav a {
+  color: black;
+  font-size: 2rem;
+  margin: auto 0.25%;
+  border: 1px outset silver;
+  text-decoration: none;
+  background: navy;
+  color: white;
+  padding: 0.1%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.btmNav a:hover {
+  background: red;
   color: white;
 }
 header {
@@ -40,7 +61,54 @@ header .US-header {
 header .US,
 header .AL,
 header .AK,
-header .AZ {
+header .AZ,
+header .AR,
+header .CA,
+header .CO,
+header .CT,
+header .DE,
+header .FL,
+header .GA,
+header .HI,
+header .ID,
+header .IL,
+header .IN,
+header .IA,
+header .KS,
+header .KY,
+header .LA,
+header .ME,
+header .MD,
+header .MA,
+header .MI,
+header .MN,
+header .MS,
+header .MO,
+header .MT,
+header .NE,
+header .NV,
+header .NH,
+header .NJ,
+header .NM,
+header .NY,
+header .NC,
+header .ND,
+header .OH,
+header .OK,
+header .OR,
+header .PA,
+header .RI,
+header .SC,
+header .SD,
+header .TN,
+header .TX,
+header .UT,
+header .VT,
+header .VA,
+header .WA,
+header .WV,
+header .WI,
+header .WY {
   position: absolute;
   height: 150px;
   width: 4700px;
@@ -68,6 +136,147 @@ header .AK {
 }
 header .AZ {
   background-image: url("/img/AZ.png");
+}
+header .AR {
+  background-image: url("/img/AR.png");
+}
+header .CA {
+  background-image: url("/img/CA.png");
+}
+header .CO {
+  background-image: url("/img/CO.png");
+}
+header .CT {
+  background-image: url("/img/CT.png");
+}
+header .DE {
+  background-image: url("/img/DE.png");
+}
+header .FL {
+  background-image: url("/img/FL.png");
+}
+header .GA {
+  background-image: url("/img/GA.png");
+}
+header .HI {
+  background-image: url("/img/HI.png");
+}
+header .ID {
+  background-image: url("/img/ID.png");
+}
+header .IL {
+  background-image: url("/img/IL.png");
+}
+header .IN {
+  background-image: url("/img/IN.png");
+}
+header .IA {
+  background-image: url("/img/IA.png");
+}
+header .KS {
+  background-image: url("/img/KS.png");
+}
+header .KY {
+  background-image: url("/img/KY.png");
+}
+header .LA {
+  background-image: url("/img/LA.png");
+}
+header .ME {
+  background-image: url("/img/ME.png");
+}
+header .MD {
+  background-image: url("/img/MD.png");
+}
+header .MA {
+  background-image: url("/img/MA.png");
+}
+header .MI {
+  background-image: url("/img/MI.png");
+}
+header .MN {
+  background-image: url("/img/MN.png");
+}
+header .MS {
+  background-image: url("/img/MS.png");
+}
+header .MO {
+  background-image: url("/img/MO.png");
+}
+header .MT {
+  background-image: url("/img/MT.png");
+}
+header .NE {
+  background-image: url("/img/NE.png");
+}
+header .NV {
+  background-image: url("/img/NV.png");
+}
+header .NH {
+  background-image: url("/img/NH.png");
+}
+header .NJ {
+  background-image: url("/img/NJ.png");
+}
+header .NM {
+  background-image: url("/img/NM.png");
+}
+header .NY {
+  background-image: url("/img/NY.png");
+}
+header .NC {
+  background-image: url("/img/NC.png");
+}
+header .ND {
+  background-image: url("/img/ND.png");
+}
+header .OH {
+  background-image: url("/img/OH.png");
+}
+header .OK {
+  background-image: url("/img/OK.png");
+}
+header .OR {
+  background-image: url("/img/OR.png");
+}
+header .PA {
+  background-image: url("/img/PA.png");
+}
+header .RI {
+  background-image: url("/img/RI.png");
+}
+header .SC {
+  background-image: url("/img/SC.png");
+}
+header .SD {
+  background-image: url("/img/SD.png");
+}
+header .TN {
+  background-image: url("/img/TN.png");
+}
+header .TX {
+  background-image: url("/img/TX.png");
+}
+header .UT {
+  background-image: url("/img/UT.png");
+}
+header .VT {
+  background-image: url("/img/VT.png");
+}
+header .VA {
+  background-image: url("/img/VA.png");
+}
+header .WA {
+  background-image: url("/img/WA.png");
+}
+header .WV {
+  background-image: url("/img/WV.png");
+}
+header .WI {
+  background-image: url("/img/WI.png");
+}
+header .WY {
+  background-image: url("/img/WY.png");
 }
 #footer {
   font-size: 1.5rem;
@@ -105,7 +314,7 @@ header .AZ {
   background: white;
   color: grey;
 }
-.AL-Links {
+.Learn-Links {
   color: white;
 }
 #flipcard {
