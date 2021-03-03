@@ -38,7 +38,9 @@ header .US-header {
   background-image: linear-gradient(#4bd1a9, #effde4);
 }
 header .US,
-header .AL {
+header .AL,
+header .AK,
+header .AZ {
   position: absolute;
   height: 150px;
   width: 4700px;
@@ -60,6 +62,12 @@ header .US {
 }
 header .AL {
   background-image: url("/img/AL.png");
+}
+header .AK {
+  background-image: url("/img/AK.png");
+}
+header .AZ {
+  background-image: url("/img/AZ.png");
 }
 #footer {
   font-size: 1.5rem;
