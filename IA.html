@@ -1,0 +1,120 @@
+<!doctype html> 
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>CitySpire: US States</title>    
+        <link rel="stylesheet" href="css/index.css">
+    
+    </head>
+    <body id="US-States">
+        <a data-scroll href="#top" id="topbtn">
+        </a>
+        <div class = "navigation">
+        <nav class = "hdnav">
+            <a class="home-nav" href="https://g.cityspire.dev/">Home</a>
+            <a class="states-nav" href="index.html">US States</a>
+        </nav>
+        </div>
+
+        <header>
+            <div class="US-header"></div>
+            <div class="IA"></div>		
+        </header>
+
+        
+        <div id="flipcard">
+            <div class="flip">
+                <div class="card">
+                    <div class="face front">
+                        <br><br> State <br> Flower
+                    </div>
+                    <div class="face back">
+                        <br> <div><img src="" alt="Iowa State Flower"> <br><br></div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="flip">
+                <div class="card">
+                    <div class="face front">
+                        <br>
+                        <br>State <br> Flag
+                    </div>
+                    <div class="face back">
+                       <br> <div><img src="" alt="Iowa State Flag"> <br> </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="flip">
+                <div class="card">
+                    <div class="face front">
+                        <br><br>State <br> Bird
+                    </div>
+                    <div class="face back">
+                        <br> <div><img src="" alt="Iowa State Bird"> <br> </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flip">
+                <div class="card">
+                    <div class="face front">
+                        <br><br> State <br> Capital
+                    </div>
+                    <div class="face back">
+                        <br> <div><img src="" alt="Iowa State Capital"> <br><br><br><br></div>
+                    </div>
+                </div>
+            </div>
+            <div class="flip">
+                <div class="card">
+                    <div class="face front">
+                        <br><br>   Dumb <br> Laws
+                    </div>
+                    <div class="face back">
+                        <div><br> - 
+                             <br> - 
+                             <br> - 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flip">
+                <div class="card">
+                    <div class="face front">
+                        <br><br> Learn <br> More
+                    </div>
+                    <div class="face back">
+                        <div>
+                            <p>
+                            <a class="AL-Links" href="https://en.wikipedia.org/wiki/Iowa">Iowa Wikipedia Page</a> 
+                            <br><br> <a class="AL-Links"  href=""> Wikipedia Page</a> 
+                            <br><br> <a class="AL-Links"   href="">Iowa.gov</a>
+                            <br><br> <a class="AL-Links"   href="">Iowa State Dept. of Education</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <script type='text/javascript'>
+            var cards = document.querySelectorAll(".card");
+            cards.forEach(function(element){
+                element.addEventListener("click",function(){
+                    this.classList.toggle("flipped");
+                });
+            });
+        </script>
+        <div>
+            <footer id="footer">
+            Cityspire ©2021 Created by Labspt15-cityspire-g
+            </footer> 
+        </div>
+
+    </body>
+</html>
